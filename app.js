@@ -13,7 +13,7 @@ document.body.appendChild(renderer.domElement);
 // 🎥 Setting Camera
 const fov = 75;           // Field of View
 const aspect = w / h;     // Aspect Ratio
-const far = 1000;           // Farrest range that renders
+const far = 1000;         // Farrest range that renders
 const near = 0.1;         // Nearest range that renders
 const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
 camera.position.x = 70;
